@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Encuesta</title>
+	</head>
+	<body>
+		<h1>Encuesta literaria</h1>
+		<form action="/Encuesta/mostrar">
+			<label>Nombre</label><br>
+			<input type="text" name="nombre"><br><br>
+			<label>Apellidos</label><br>
+			<input type="text" name="apellidos"><br><br>
+			<label>Estudios</label><br>
+			<select name="estudios">
+				<option>Primaria</option>
+				<option>Secundaria</option>
+				<option>Bachillerato</option>
+			</select><br><br>
+			<label>Preferencias literarias</label><br>
+			<label><input type="checkbox" name="preferencias" value="Novela" checked>Novela</label><br>
+			<label><input type="checkbox" name="preferencias" value="Teatro">Teatro</label><br>
+			<label><input type="checkbox" name="preferencias" value="Poesia">Poesía</label><br>
+			<label><input type="checkbox" name="preferencias" value="Ensayo">Ensayo</label><br><br>
+			<input type="submit" value="Enviar">
+		</form>
+	</body>
+</html>
