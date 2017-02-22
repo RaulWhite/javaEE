@@ -62,7 +62,7 @@
          APR (HTTP/AJP) Connector: /docs/apr.html
          Define a non-SSL HTTP/1.1 Connector on port 8080
     -->
-    <Connector URIEncoding="UTF-8" connectionTimeout="20000" port="8080" protocol="HTTP/1.1" redirectPort="8443"/>
+    <Connector connectionTimeout="20000" port="8080" protocol="HTTP/1.1" redirectPort="8443"/>
     <!-- A "Connector" using the shared thread pool-->
     <!--
     <Connector executor="tomcatThreadPool"
@@ -126,7 +126,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log." suffix=".txt"/>
 
-      <Context docBase="PrimerProyecto" path="/PrimerProyecto" reloadable="true" source="org.eclipse.jst.jee.server:PrimerProyecto"/><Context docBase="Encuesta" path="/Encuesta" reloadable="true" source="org.eclipse.jst.jee.server:Encuesta"/><Context docBase="Sesiones" path="/Sesiones" reloadable="true" source="org.eclipse.jst.jee.server:Sesiones"/></Host>
+      <Context docBase="Sesiones" path="/Sesiones" reloadable="true" source="org.eclipse.jst.jee.server:Sesiones"/><Context docBase="Puntos" path="/Puntos" reloadable="true" source="org.eclipse.jst.jee.server:Puntos"/><Context docBase="Encuesta" path="/Encuesta" reloadable="true" source="org.eclipse.jst.jee.server:Encuesta"/><Context docBase="Libreria" path="/Libreria" reloadable="true" source="org.eclipse.jst.jee.server:Libreria"/><Context docBase="PrimerProyecto" path="/PrimerProyecto" reloadable="true" source="org.eclipse.jst.jee.server:PrimerProyecto"/></Host>
     </Engine>
   </Service>
 </Server>

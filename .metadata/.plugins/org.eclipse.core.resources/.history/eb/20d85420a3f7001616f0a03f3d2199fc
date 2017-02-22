@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Librería</title>
+	</head>
+	<body>
+		<h1>Consulta de libros</h1>
+		<form action="/Libreria/consulta">
+			<input type="radio" value="Robert L. Stevenson">Robert L. Stevenson<br>
+			<input type="radio" value="Alejandro Dumas">
+			<input type="radio" value="Charles Dickens">
+		</form>
+	</body>
+</html>

@@ -1,0 +1,14 @@
+127.0.0.1 - - [22/Feb/2017:20:28:11 +0100] "GET / HTTP/1.1" 404 961
+0:0:0:0:0:0:0:1 - - [22/Feb/2017:20:28:14 +0100] "GET /Libreria/index.html HTTP/1.1" 200 474
+0:0:0:0:0:0:0:1 - - [22/Feb/2017:20:28:18 +0100] "GET /Libreria/consulta?autor=Alejandro+Dumas HTTP/1.1" 200 130
+0:0:0:0:0:0:0:1 - - [22/Feb/2017:20:28:46 +0100] "GET /Libreria/consulta?autor=Alejandro+Dumas HTTP/1.1" 200 130
+0:0:0:0:0:0:0:1 - - [22/Feb/2017:20:31:02 +0100] "GET /Libreria/index.html HTTP/1.1" 200 474
+127.0.0.1 - - [22/Feb/2017:20:31:11 +0100] "GET / HTTP/1.1" 404 961
+0:0:0:0:0:0:0:1 - - [22/Feb/2017:20:31:12 +0100] "GET /Libreria/index.html HTTP/1.1" 200 474
+0:0:0:0:0:0:0:1 - - [22/Feb/2017:20:31:14 +0100] "GET /Libreria/consulta?autor=Alejandro+Dumas HTTP/1.1" 200 130
+0:0:0:0:0:0:0:1 - - [22/Feb/2017:20:32:52 +0100] "GET /Libreria/consulta?autor=Alejandro+Dumas HTTP/1.1" 200 130
+127.0.0.1 - - [22/Feb/2017:20:33:41 +0100] "GET / HTTP/1.1" 404 961
+0:0:0:0:0:0:0:1 - - [22/Feb/2017:20:33:43 +0100] "GET /Libreria/consulta?autor=Robert+L.+Stevenson HTTP/1.1" 200 130
+127.0.0.1 - - [22/Feb/2017:20:34:47 +0100] "GET / HTTP/1.1" 404 961
+0:0:0:0:0:0:0:1 - - [22/Feb/2017:20:34:50 +0100] "GET /Libreria/consulta?autor=Robert+L.+Stevenson HTTP/1.1" 200 358
+0:0:0:0:0:0:0:1 - - [22/Feb/2017:20:43:49 +0100] "GET /Libreria/consulta?autor=Charles+Dickens HTTP/1.1" 200 329
